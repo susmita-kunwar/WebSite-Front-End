@@ -15,7 +15,7 @@ body
 }
 .Nav_bar
 {
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     border: 3px solid black;
 
@@ -23,7 +23,9 @@ body
 .Employee_info
 {
     border: 3px solid black;
-    display: block;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
     width: auto;
     
 }

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500;600;800&display=swap');
 :root
 {
-    --border-color:yellow;
+    --border-color: black;
 }
 
 
@@ -26,7 +26,7 @@ div h1{
     color: var(--border-color);
 }
 .sign-up-form{
-    background-color: rgba(46, 43, 43, 0.5);
+    background-color: #fff;
     text-align: center;
     color: black;
     margin: 8% auto 0;
@@ -67,8 +67,8 @@ button{
 }
 .input-btn
 {
-    border: 4px solid rgb(0, 0, 255);
-    background-color: rgb(0, 0, 255,0.3);
+    border: 4px solid rgb(0, 0, 0);
+    background-color: hwb(240 25% 21% / 0.7);
     cursor: pointer;
     font-size: 17px;
     font-weight: bold;
@@ -82,6 +82,6 @@ button{
 
 .input-btn:hover
 {
-    background-color: rgb(255, 0, 0,0.3);
+    background-color: rgba(10, 10, 10, 0.3);
     color: blue;
 }
