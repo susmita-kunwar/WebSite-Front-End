@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500;600;800&display=swap');
+:root
+{
+    --border-color:yellow;
+}
+
+
+
 body{
     margin: 0;
     padding: 0%;
     background-color: rgb(207, 200, 214);
     background-image: url(back1.jpg);
     background-size: cover;
-
+    font-family: 'Chivo Mono',sans-serif;
+    
 }
 
 div h1{
@@ -13,7 +23,7 @@ div h1{
 }
 .header
 {
-    color: whitesmoke;
+    color: var(--border-color);
 }
 .sign-up-form{
     background-color: rgba(46, 43, 43, 0.5);
@@ -62,7 +72,7 @@ button{
     cursor: pointer;
     font-size: 17px;
     font-weight: bold;
-    color: whitesmoke;
+    color: var(--border-color);
     padding: 15px;
     width: 70%;
     margin: 2px;

@@ -1,0 +1,35 @@
+:root
+{
+    --first-color: grey;
+    --first-color-alt: hsl(--first-color, 98%, 60%);
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-size: 18px;
+}
+.Nav_bar
+{
+    display: inline-block;
+    justify-content: space-between;
+    border: 3px solid black;
+
+}
+.Employee_info
+{
+    border: 3px solid black;
+    display: block;
+    width: auto;
+    
+}
+.Avatar
+{
+    width: 7%;
+    padding: 10px;
+    margin: auto;
+}
