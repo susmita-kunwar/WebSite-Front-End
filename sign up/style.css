@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(207, 200, 214);
+    background-image: url(back.jpg);
+    background-size: cover;
+
+}
+
+div h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header
+{
+    color: whitesmoke;
+}
+.sign-up-form{
+    background-color: rgba(46, 43, 43, 0.5);
+    text-align: center;
+    color: black;
+    margin: 8% auto 0;
+    padding: 10px;
+    width: 30%;
+    border: 8px solid rgb(210, 180, 197,0.4);
+    border-radius: .35rem;
+    padding-bottom: 35px;
+    outline: none;
+
+    
+}
+
+.input-box{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    outline: none;
+    border: 1px solid #fff;
+
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+
+}
