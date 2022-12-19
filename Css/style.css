@@ -1,0 +1,41 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-image: url(images/back.jpeg); */
+}
+
+ul{
+    list-style-type: none; /*removes the bullets*/ 
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+    background-color: burlywood;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+li a{
+
+    display: block; /*adjust the background area of text*/
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a.active{   /* User will be know that which page he/she is on*/
+    background-color: rgb(88, 184, 88);
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: black;
+    color: white;
+}
+
+li{
+    text-align: center;
+    border: 1px solid black;
+}
+li :last-child{
+    border-bottom: none;
+}
